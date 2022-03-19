@@ -1,0 +1,36 @@
+#nome {
+    margin-left: 100px;
+}
+
+#div_id {
+    margin-top: 50px;
+    background-color: aqua;
+    border: 2px solid darkblue;
+}
+
+.div_class {
+    margin-top: 50px;
+    background-color: green;
+    border: 15px solid darkcyan;
+    padding: 80px;
+    margin: 50px;
+}
+
+a {
+    padding: 0px 10px 0px 10px;
+    font-family: 'Courier New', Courier;
+    font-size: large;
+    color: red;
+}
+
+a[href="index.html"] {
+    color: cornflowerblue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
