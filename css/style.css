@@ -2,7 +2,7 @@
     width: 100%;
     float: left;
     /* padding: 50px 8%; */
-    background-color: #13c7ae;
+    background-color: #ffffff;
 }
 
 .logo a {
@@ -23,24 +23,24 @@
     width: 85%;
     float: left;
     padding: 5px 3px;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .cabecalho button {
-    width: 15%;
+    width: 12%;
     float: right;
     padding: 5px 3px;
-    background-color: #0cae98;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: black;
     cursor: pointer;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .menu {
     width: 100%;
     float: left;
-    background-color: #111111;
-    padding: 18px 8%;
+    background-color: gray;
+    /* padding: 18px 8%; */
 }
 
 .menu li {
@@ -49,6 +49,6 @@
 
 .menu a {
     font-size: 120%;
-    color: #9d9d9d;
+    color: #ffffff;
     margin-right: 25px;
 }
