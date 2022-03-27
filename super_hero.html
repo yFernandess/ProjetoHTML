@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projeto SUPER HEROES</title>
+        <script src="https://kit.fontawesome.com/df8a7b767d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1 class="logo"><a href="super_hero.html" title="Empresa">SUPER HEROES</a></h1>
+            <!-- <form>
+                <input type="text" id="input_id" placeholder="Busque por um cep">
+                <button type="button" onclick="buscaCep()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form> -->
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <form>
+                <br><br>
+                <label for="cars">Choose a hero:</label>
+                <select name="heroes" id="heroes">
+                    <option value="batman">Batman</option>
+                    <option value="flash">Flash</option>
+                    <option value="superman">Superman</option>
+                </select>
+                <button type="button" onclick="searchHero()">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="div_main" id="div_main_id">
+            
+            </div>
+        </main>
+
+        <footer>
+            <div class="div_footer">
+                <p>Softplan - Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>

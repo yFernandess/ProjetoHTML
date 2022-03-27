@@ -5,13 +5,16 @@
         <title>Projeto HTML, CSS e JS</title>
         <script src="https://kit.fontawesome.com/df8a7b767d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
     <body>
         <header class="cabecalho">
             <h1 class="logo"><a href="projeto.html" title="Empresa">Nome da Empresa</a></h1>
-            <form method="POST">
-                <input type="text" placeholder="Busque pelos nossos produtos">
-                <button><i class="fas fa-search"></i></button>
+            <form>
+                <input type="text" id="input_id" placeholder="Busque por um cep">
+                <button type="button" onclick="buscaCep()">
+                    <i class="fas fa-search"></i>
+                </button>
             </form>
         </header>
 
@@ -19,7 +22,6 @@
             <ul>
                 <li>
                     <a href="#">Home</a>
-                    <a href="#">Produtos</a>
                     <a href="contato.html">Contato</a>
                     <a href="sobre.html">Sobre</a>
                 </li>
@@ -27,8 +29,8 @@
         </nav>
 
         <main>
-            <div class="div_main">
-                <h1>teste da seção main</h1>
+            <div class="div_main" id="div_main_id">
+            
             </div>
         </main>
 
